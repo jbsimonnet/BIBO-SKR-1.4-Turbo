@@ -1,0 +1,67 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin/src/HAL/LPC1768/include",
+                "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin/src/HAL/LPC1768/u8g",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/.pio/libdeps/LPC1769/TMCStepper/src",
+                "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/.pio/libdeps/LPC1769/U8glib-HAL/src",
+                "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/libraries/Servo/src",
+                    "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin/src/HAL/LPC1768/include",
+                    "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/Marlin/src/HAL/LPC1768/u8g",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/cores/arduino",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/include",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/CMSIS/lib",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/system/lpc176x",
+                    "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/.pio/libdeps/LPC1769/TMCStepper/src",
+                    "F:/Dropbox/BIBO 3D/Marlin-2.1.2.4/.pio/libdeps/LPC1769/U8glib-HAL/src",
+                    "C:/Users/jb_si/.platformio/packages/framework-arduino-lpc176x/libraries/LiquidCrystal/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "LPC176X_FRAMEWORK",
+                "TARGET_LPC1768",
+                "F_CPU=120000000L",
+                "MCU_LPC1769",
+                "PIO_PLATFORM_VERSION=1003UL",
+                "PIO_FRAMEWORK_VERSION=2009UL",
+                "PLATFORMIO=60116",
+                "__MARLIN_FIRMWARE__",
+                "NDEBUG",
+                "U8G_HAL_LINKS",
+                "PLATFORM_M997_SUPPORT",
+                "ARDUINO_ARCH_LPC176X",
+                "ARDUINOLPC=10805",
+                ""
+            ],
+            "cppStandard": "gnu++17",
+            "compilerPath": "C:/Users/jb_si/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m3",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
