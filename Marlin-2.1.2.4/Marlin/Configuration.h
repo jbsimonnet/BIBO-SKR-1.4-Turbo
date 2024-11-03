@@ -680,9 +680,9 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify up to one value per hotend here, according to your setup.
     // If there are fewer values, the last one applies to the remaining hotends.
-    #define DEFAULT_Kp_LIST {  23.89,  23.89 }
-    #define DEFAULT_Ki_LIST {   1.37,   1.37 }
-    #define DEFAULT_Kd_LIST { 104.50, 104.50 }
+    #define DEFAULT_Kp_LIST { 40.8528, 40.8528 }
+    #define DEFAULT_Ki_LIST { 4.61670, 4.61670 }
+    #define DEFAULT_Kd_LIST { 90.3766, 90.3766 }
   #else
     #define DEFAULT_Kp  23.89
     #define DEFAULT_Ki   1.37
@@ -773,9 +773,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 10.00
-  #define DEFAULT_bedKi 0.023
-  #define DEFAULT_bedKd 305.4
+  #define DEFAULT_bedKp 65.7456
+  #define DEFAULT_bedKi 8.88750
+  #define DEFAULT_bedKd 324.235
   
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #else
@@ -1511,7 +1511,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -54, -42, -2.8 }
+#define NOZZLE_TO_PROBE_OFFSET { -54, -42, -3 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1726,11 +1726,11 @@
 #define Y_BED_SIZE 186
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -145
-#define Y_MIN_POS -96
+#define X_MIN_POS -125
+#define Y_MIN_POS -94
 #define Z_MIN_POS 0
-#define X_MAX_POS 125
-#define Y_MAX_POS 94
+#define X_MAX_POS 145
+#define Y_MAX_POS 100
 #define Z_MAX_POS 160
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
